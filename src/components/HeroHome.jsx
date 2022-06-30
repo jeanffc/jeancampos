@@ -1,7 +1,4 @@
 import React from 'react';
-// import Modal from '../utils/Modal';
-
-// import HeroImage from '../images/hero-image.png';
 
 const HeroHome = () => {
 
