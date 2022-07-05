@@ -13,7 +13,7 @@ const HeroHome = () => {
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-6xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">
-              Hi, this is <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Jean Campos</span>
+              <span className='mr-6'>👋</span>Hi, I am <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 pr-2">Jean Campos</span>
             </h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
