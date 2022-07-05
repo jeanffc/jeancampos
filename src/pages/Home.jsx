@@ -3,6 +3,7 @@ import React from 'react'
 import Header from '../components/Header';
 import HeroHome from '../components/HeroHome';
 import Footer from '../components/Footer';
+import Services from '../components/Services';
 
 const Home = () => {
   return (
@@ -16,8 +17,8 @@ const Home = () => {
 
         {/*  Page sections */}
         <HeroHome />
-        {/* 
         <Services />
+        {/* 
         <Works />
         <About /> 
         */}
