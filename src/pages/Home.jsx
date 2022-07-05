@@ -16,7 +16,11 @@ const Home = () => {
 
         {/*  Page sections */}
         <HeroHome />
-
+        {/* 
+        <Services />
+        <Works />
+        <About /> 
+        */}
       </main>
 
       {/*  Site footer */}
