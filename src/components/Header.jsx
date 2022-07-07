@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { IconContext } from "react-icons";
 import { FaArrowRight } from 'react-icons/fa'
 
+import logo from '../assets/img/logo_jean-campos2.png'
+
 const Header = () => {
   return (
     <header className={`fixed w-full z-50 bg-white border-b`}>
@@ -14,7 +16,7 @@ const Header = () => {
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Logo">
-              Logo
+              <img src={logo} alt="Logo" />
             </Link>
           </div>
 
