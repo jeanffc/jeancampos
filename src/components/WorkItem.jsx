@@ -6,7 +6,7 @@ const WorkItem = ({ imgUrl, title, tech, workUrl }) => {
       href={workUrl}
       target="_blank"
       rel="noreferrer"
-      className="bg-slate-300 rounded-lg overflow-hidden"
+      className="border bg-gray-50 rounded-lg overflow-hidden shadow-lg"
     >
       <img
         src={imgUrl}
