@@ -2,7 +2,7 @@ import React from 'react';
 import WORKS from '../data/works';
 import WorkItem from './WorkItem';
 
-function Works() {
+const Works = () => {
   return (
     <div className="py-12 mx-12">
       <h3 className='text-4xl font-extrabold leading-tighter tracking-tighter mb-8 pb-2 border-b'>

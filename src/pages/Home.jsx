@@ -5,6 +5,7 @@ import HeroHome from '../components/HeroHome';
 import Footer from '../components/Footer';
 import Services from '../components/Services';
 import Works from '../components/Works';
+import Contact from '../components/Contact';
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
         {/* 
         <About /> 
         */}
+        <Contact />
       </main>
 
       {/*  Site footer */}
