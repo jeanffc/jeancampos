@@ -27,6 +27,7 @@ const Blog = () => {
               {POSTS.map(post => (
                 <Post
                   key={post.title}
+                  title={post.title}
                   category={post.category}
                   date={post.date}
                   description={post.description}
