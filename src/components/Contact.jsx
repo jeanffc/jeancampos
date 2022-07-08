@@ -1,4 +1,6 @@
 import React from 'react'
+import { IconContext } from 'react-icons';
+import { FaArrowRight } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -10,7 +12,14 @@ const Contact = () => {
         <p className='text-base text-gray-500 mb-4 '>
           Are you interested in collaborating or want to connect or chat? If so, hit the contact button down below or contact me via LinkedIn.
         </p>
-        <a href="mailto:jeanffc@gmail.com" className='btn-md text-gray-200 bg-gray-900 hover:bg-gray-600 px-5 py-3 flex items-center transition duration-150 ease-in-out'>Contact Me</a>
+        <a href="mailto:jeanffc@gmail.com" className='btn-md text-gray-200 bg-gray-900 hover:bg-gray-600 px-5 py-3 flex items-center transition duration-150 ease-in-out'>
+          Email Me
+          <IconContext.Provider value={{ className: "text-gray-200 ml-2" }}>
+            <div>
+              <FaArrowRight />
+            </div>
+          </IconContext.Provider>
+        </a>
       </div>
     </div>
   );
