@@ -4,7 +4,7 @@ import WorkItem from './WorkItem';
 
 const Works = () => {
   return (
-    <div className="py-12 mx-12">
+    <section className="relative py-12 mx-12 max-w-6xl mx-auto">
       <h3 className='text-4xl font-extrabold leading-tighter tracking-tighter mb-8 pb-2 border-b'>
         Favorite Works
       </h3>
@@ -19,7 +19,7 @@ const Works = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

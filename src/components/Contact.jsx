@@ -4,7 +4,7 @@ import { FaArrowRight } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <div className="py-12 mx-12">
+    <section className="relative py-12 mx-12 max-w-6xl mx-auto">
       <h3 className='text-4xl font-extrabold leading-tighter tracking-tighter mb-8 pb-2 border-b'>
         Contact
       </h3>
@@ -21,7 +21,7 @@ const Contact = () => {
           </IconContext.Provider>
         </a>
       </div>
-    </div>
+    </section>
   );
 }
 
