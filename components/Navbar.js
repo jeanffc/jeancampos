@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import userData from "@constants/data";
@@ -19,7 +20,12 @@ export default function Navbar() {
       <div className="flex  md:flex-row justify-between items-center">
         {/* Logo / Home / Text */}
 
-        <div className="flex flex-col">
+        <div className="flex flex-row items-center">
+          <Link href="/">
+            <a>
+              <img className="h-12 w-12 rounded-full mr-2" src={userData.logoUrl} alt="Jean Campos - Logo" />
+            </a>
+          </Link>
           <Link href="/">
             <a>
               <h1 className="font-semibold text-xl dark:text-gray-100">

@@ -3,6 +3,7 @@ const userData = {
   name: "Jean Campos",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.jpeg",
+  logoUrl: "/jc-logo-wbg.png",
   email: "jeanffc@gmail.com",
   projects: [
     {
