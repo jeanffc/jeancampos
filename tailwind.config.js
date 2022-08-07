@@ -1,10 +1,24 @@
 /** @type {import('tailwindcss').Config} */
+
+const colors = require("tailwindcss/colors");
+
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  mode: "jit",
+  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class", // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      transitionDuration: {
+        0: "0ms",
+        2000: "2000ms",
+        4000: "4000ms",
+      },
+    },
   },
+  variants: {
+    extend: {},
+    display: ["responsive", "group-hover", "group-focus"],
+  },
+
   plugins: [],
-}
+};
