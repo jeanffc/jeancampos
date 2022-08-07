@@ -85,7 +85,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+    "https://www.canva.com/design/DADpzXJBp_8/HA_GLmWv9dj1qlQmMNnzoQ/view?utm_content=DADpzXJBp_8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
   socialLinks: {
     linkedin: "https://linkedin.com/in/jeancampos",
     github: "https://github.com/jeanffc",
