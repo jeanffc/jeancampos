@@ -2,7 +2,7 @@
 
 ...
 
-_Live: beeter-web.vercel.app_
+_Live: https://jeancampos.vercel.app/_
 
 ## Available Scripts
 
